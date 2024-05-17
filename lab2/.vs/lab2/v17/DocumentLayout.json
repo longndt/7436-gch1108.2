@@ -6,7 +6,13 @@
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1766,
+          "SelectedChildIndex": -1,
+          "Children": []
+        }
+      ]
     }
   ]
 }

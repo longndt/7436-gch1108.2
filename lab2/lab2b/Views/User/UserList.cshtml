@@ -1,0 +1,18 @@
+﻿@model List<lab2b.Models.User>;
+
+<table class="table table-bordered">
+    <tr>
+        <th>User Name</th>
+        <th>Full Name</th>
+        <th>Age</th>
+    </tr>
+    @foreach(var user in Model)
+    {
+        <tr>
+            <td>@user.UserName</td>
+            <td>@user.FullName</td>
+            <td>@user.Age</td>
+        </tr>
+    }
+</table>
+ 
