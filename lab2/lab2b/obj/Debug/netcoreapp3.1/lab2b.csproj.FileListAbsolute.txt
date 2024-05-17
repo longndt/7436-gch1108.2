@@ -358,3 +358,5 @@ D:\workspace\FGW-7436\7436-gch1108.2\lab2\lab2b\obj\Debug\netcoreapp3.1\lab2b.pd
 D:\workspace\FGW-7436\7436-gch1108.2\lab2\lab2b\obj\Debug\netcoreapp3.1\lab2b.genruntimeconfig.cache
 D:\workspace\FGW-7436\7436-gch1108.2\lab2\lab2b\obj\Debug\netcoreapp3.1\Razor\Views\User\User.cshtml.g.cs
 D:\workspace\FGW-7436\7436-gch1108.2\lab2\lab2b\obj\Debug\netcoreapp3.1\Razor\Views\User\UserList.cshtml.g.cs
+D:\workspace\FGW-7436\7436-gch1108.2\lab2\lab2b\obj\Debug\netcoreapp3.1\Razor\Views\Home\RazorDemo.cshtml.g.cs
+D:\workspace\FGW-7436\7436-gch1108.2\lab2\lab2b\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_DemoLayout.cshtml.g.cs

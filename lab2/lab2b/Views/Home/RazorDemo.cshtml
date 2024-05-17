@@ -1,0 +1,48 @@
+﻿@{
+    //set custom layout for web page
+    Layout = "~/Views/Shared/_DemoLayout.cshtml";
+}
+
+<h1>@DateTime.Now</h1>
+
+@*
+    Declare a variable to store current year
+*@
+@{
+    //single line comment
+    /* multiple
+     * lines
+     * comment
+     */
+    int currentYear = DateTime.Now.Year;
+}
+<h2>@currentYear</h2>
+<h3>Email: longndt@@fpt.edu.vn</h3>
+
+@{
+    var x = 10;
+    var y = 20;
+    var total = x + y;
+}
+<h3>Total: @total</h3>
+
+@{
+    double grade = 6.8;
+    string result = "";
+    if (grade >= 5.0)
+        result = "Pass";
+    else
+        result = "Fail";
+}
+<h3>Grade: @grade</h3>
+<h3>Result: @result</h3>
+
+<ul>
+    @{
+        for (int i = 1; i <= 10; i++)
+        {
+            <li>@i</li>
+        }
+    }
+</ul>
+

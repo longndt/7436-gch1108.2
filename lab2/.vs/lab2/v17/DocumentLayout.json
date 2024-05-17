@@ -1,16 +1,75 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|d:\\workspace\\fgw-7436\\7436-gch1108.2\\lab2\\lab2b\\views\\shared\\_demolayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|solutionrelative:lab2b\\views\\shared\\_demolayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|d:\\workspace\\fgw-7436\\7436-gch1108.2\\lab2\\lab2b\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|solutionrelative:lab2b\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|d:\\workspace\\fgw-7436\\7436-gch1108.2\\lab2\\lab2b\\views\\home\\razordemo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|solutionrelative:lab2b\\views\\home\\razordemo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 1766,
-          "SelectedChildIndex": -1,
-          "Children": []
+          "DockedWidth": 151,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "lab2b\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "lab2b\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T04:15:03.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_DemoLayout.cshtml",
+              "DocumentMoniker": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\Views\\Shared\\_DemoLayout.cshtml",
+              "RelativeDocumentMoniker": "lab2b\\Views\\Shared\\_DemoLayout.cshtml",
+              "ToolTip": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\Views\\Shared\\_DemoLayout.cshtml",
+              "RelativeToolTip": "lab2b\\Views\\Shared\\_DemoLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T03:57:41.44Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 159,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RazorDemo.cshtml",
+              "DocumentMoniker": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\Views\\Home\\RazorDemo.cshtml",
+              "RelativeDocumentMoniker": "lab2b\\Views\\Home\\RazorDemo.cshtml",
+              "ToolTip": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\Views\\Home\\RazorDemo.cshtml",
+              "RelativeToolTip": "lab2b\\Views\\Home\\RazorDemo.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T03:35:46.231Z",
+              "EditorCaption": ""
+            }
+          ]
         }
       ]
     }
