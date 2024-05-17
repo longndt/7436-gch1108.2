@@ -1,0 +1,36 @@
+﻿@model lab2b.Models.User;
+
+<form method="post" asp-controller="Helper" asp-action="Register" class="form-horizontal">
+    <h3>Account Registration</h3>
+    <hr />
+
+    <div class="form-group">
+        <label asp-for="UserName">User Name</label>
+        <div class="col-md-10">
+            <input asp-for="UserName" type="text" name="UserName" required minlength="3" maxlength="30" />
+            <span asp-validation-for="UserName" class="text-danger" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FullName"></label>
+        <div class="col-md-10">
+            <input asp-for="FullName" type="text" name="FullName" required minlength="3" maxlength="30" />
+            <span asp-validation-for="FullName" class="text-danger" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Age">Age</label>
+        <div class="col-md-10">
+            <input asp-for="Age" type="number" name="Age" required min="1" maxlength="100" />
+            <span asp-validation-for="Age" class="text-danger" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-10">
+            <button type="submit" class="btn btn-primary">Register</button>
+        </div>
+    </div>
+</form>
