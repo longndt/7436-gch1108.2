@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|d:\\workspace\\fgw-7436\\7436-gch1108.2\\lab2\\lab2b\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|solutionrelative:lab2b\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|d:\\workspace\\fgw-7436\\7436-gch1108.2\\lab2\\lab2b\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|solutionrelative:lab2b\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|d:\\workspace\\fgw-7436\\7436-gch1108.2\\lab2\\lab2b\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|solutionrelative:lab2b\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|d:\\workspace\\fgw-7436\\7436-gch1108.2\\lab2\\lab2b\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|solutionrelative:lab2b\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|d:\\workspace\\fgw-7436\\7436-gch1108.2\\lab2\\lab2b\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|solutionrelative:lab2b\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|d:\\workspace\\fgw-7436\\7436-gch1108.2\\lab2\\lab2b\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|solutionrelative:lab2b\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|d:\\workspace\\fgw-7436\\7436-gch1108.2\\lab2\\lab2b\\controllers\\helpercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|solutionrelative:lab2b\\controllers\\helpercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|d:\\workspace\\fgw-7436\\7436-gch1108.2\\lab2\\lab2b\\views\\helper\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4E5FFB8-43D1-4F66-874A-6046AA61385D}|lab2b\\lab2b.csproj|solutionrelative:lab2b\\views\\helper\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 245,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\Startup.cs",
+              "RelativeDocumentMoniker": "lab2b\\Startup.cs",
+              "ToolTip": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\Startup.cs",
+              "RelativeToolTip": "lab2b\\Startup.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T00:48:25.557Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\Program.cs",
+              "RelativeDocumentMoniker": "lab2b\\Program.cs",
+              "ToolTip": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\Program.cs",
+              "RelativeToolTip": "lab2b\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T01:42:58.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "lab2b\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "lab2b\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAADwvxgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T01:37:24.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "lab2b\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "lab2b\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAADwvyEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T01:32:16.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\Views\\Helper\\Register.cshtml",
+              "RelativeDocumentMoniker": "lab2b\\Views\\Helper\\Register.cshtml",
+              "ToolTip": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\Views\\Helper\\Register.cshtml",
+              "RelativeToolTip": "lab2b\\Views\\Helper\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T01:25:34.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HelperController.cs",
+              "DocumentMoniker": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\Controllers\\HelperController.cs",
+              "RelativeDocumentMoniker": "lab2b\\Controllers\\HelperController.cs",
+              "ToolTip": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\Controllers\\HelperController.cs",
+              "RelativeToolTip": "lab2b\\Controllers\\HelperController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwvw4AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T01:25:20.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "lab2b\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "lab2b\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T01:04:11.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\appsettings.json",
+              "RelativeDocumentMoniker": "lab2b\\appsettings.json",
+              "ToolTip": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lab2\\lab2b\\appsettings.json",
+              "RelativeToolTip": "lab2b\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-20T00:56:42.837Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
