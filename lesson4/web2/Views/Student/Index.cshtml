@@ -1,0 +1,15 @@
+﻿@model List<web2.Models.Student>
+
+<table>
+    <tr>
+        <th>Student Id</th>
+        <th>Student Name</th>
+        <th>Student BirthDay</th>
+    </tr>
+    @foreach(var student in Model)
+    {
+        <td>@student.Id</td>
+        <td>@student.Name</td>
+        <td>@student.BirthDate</td>
+    }
+</table>

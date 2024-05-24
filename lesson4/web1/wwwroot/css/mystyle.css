@@ -1,0 +1,15 @@
+﻿.error {
+    color: red;
+    background-color: yellow;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+}
+
+.title {
+    color: blue;
+    font-weight:bold;
+    font-family:'Bookman Old Style';
+    border: 3px solid orange;
+}

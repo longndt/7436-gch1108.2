@@ -21,6 +21,6 @@ namespace web1.Models
         public string Image { get; set; }
 
         //? : nullable (optional)
-        public string? Description { get; set; }
+        public string? Description { get; set; }        
     }
 }

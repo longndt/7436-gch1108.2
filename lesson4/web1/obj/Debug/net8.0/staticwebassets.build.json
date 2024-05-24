@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aHDqNJEYSgHB2wLGBD1+5Cn/doGUu47NQSFLNqRp/aE=",
+  "Hash": "aFktXglkwB1vTYBo5R3bc2R3qwu2CZe9Nu0BxNXVOIA=",
   "Source": "web1",
   "BasePath": "_content/web1",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lesson4\\web1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\web1.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lesson4\\web1\\wwwroot\\css\\mystyle.css",
+      "SourceId": "web1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lesson4\\web1\\wwwroot\\",
+      "BasePath": "_content/web1",
+      "RelativePath": "css/mystyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\mystyle.css"
     },
     {
       "Identity": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\lesson4\\web1\\wwwroot\\css\\site.css",

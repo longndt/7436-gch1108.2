@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web1", "web1\web1.csproj", "{F7817A62-7367-4CD8-BC10-D5B9EA140446}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "web1", "web1\web1.csproj", "{F7817A62-7367-4CD8-BC10-D5B9EA140446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eventures", "eventures\eventures.csproj", "{DB5A454F-D4DE-495A-A030-AD41D2CC0566}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F7817A62-7367-4CD8-BC10-D5B9EA140446}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7817A62-7367-4CD8-BC10-D5B9EA140446}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7817A62-7367-4CD8-BC10-D5B9EA140446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB5A454F-D4DE-495A-A030-AD41D2CC0566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5A454F-D4DE-495A-A030-AD41D2CC0566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5A454F-D4DE-495A-A030-AD41D2CC0566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5A454F-D4DE-495A-A030-AD41D2CC0566}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
