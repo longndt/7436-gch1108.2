@@ -17,67 +17,67 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = lab3
 build_property.RootNamespace = lab3
-build_property.ProjectDir = D:\workspace\FGW-7436\7436-gch1108.2\lab3\
+build_property.ProjectDir = D:\workspace\FGW-7436\7436-gch1108.2\lesson3\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\workspace\FGW-7436\7436-gch1108.2\lab3
+build_property.MSBuildProjectDirectory = D:\workspace\FGW-7436\7436-gch1108.2\lesson3
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/workspace/FGW-7436/7436-gch1108.2/lab3/Areas/Identity/Pages/_ViewStart.cshtml]
+[D:/workspace/FGW-7436/7436-gch1108.2/lesson3/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace/FGW-7436/7436-gch1108.2/lab3/Views/Home/Index.cshtml]
+[D:/workspace/FGW-7436/7436-gch1108.2/lesson3/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace/FGW-7436/7436-gch1108.2/lab3/Views/Home/Privacy.cshtml]
+[D:/workspace/FGW-7436/7436-gch1108.2/lesson3/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace/FGW-7436/7436-gch1108.2/lab3/Views/Mobiles/Create.cshtml]
+[D:/workspace/FGW-7436/7436-gch1108.2/lesson3/Views/Mobiles/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9iaWxlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace/FGW-7436/7436-gch1108.2/lab3/Views/Mobiles/Delete.cshtml]
+[D:/workspace/FGW-7436/7436-gch1108.2/lesson3/Views/Mobiles/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9iaWxlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace/FGW-7436/7436-gch1108.2/lab3/Views/Mobiles/Details.cshtml]
+[D:/workspace/FGW-7436/7436-gch1108.2/lesson3/Views/Mobiles/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9iaWxlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace/FGW-7436/7436-gch1108.2/lab3/Views/Mobiles/Edit.cshtml]
+[D:/workspace/FGW-7436/7436-gch1108.2/lesson3/Views/Mobiles/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9iaWxlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace/FGW-7436/7436-gch1108.2/lab3/Views/Mobiles/Index.cshtml]
+[D:/workspace/FGW-7436/7436-gch1108.2/lesson3/Views/Mobiles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9iaWxlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace/FGW-7436/7436-gch1108.2/lab3/Views/Shared/Error.cshtml]
+[D:/workspace/FGW-7436/7436-gch1108.2/lesson3/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace/FGW-7436/7436-gch1108.2/lab3/Views/Shared/_LoginPartial.cshtml]
+[D:/workspace/FGW-7436/7436-gch1108.2/lesson3/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace/FGW-7436/7436-gch1108.2/lab3/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/workspace/FGW-7436/7436-gch1108.2/lesson3/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace/FGW-7436/7436-gch1108.2/lab3/Views/_ViewImports.cshtml]
+[D:/workspace/FGW-7436/7436-gch1108.2/lesson3/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace/FGW-7436/7436-gch1108.2/lab3/Views/_ViewStart.cshtml]
+[D:/workspace/FGW-7436/7436-gch1108.2/lesson3/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/workspace/FGW-7436/7436-gch1108.2/lab3/Views/Shared/_Layout.cshtml]
+[D:/workspace/FGW-7436/7436-gch1108.2/lesson3/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gutvuvgpqp
