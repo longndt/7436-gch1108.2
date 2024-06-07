@@ -371,7 +371,6 @@ D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\demo.TagHelper
 D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\demo.RazorCoreGenerate.cache
 D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
 D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -393,3 +392,4 @@ D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\demo.csproj.Up
 D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\demo.dll
 D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\demo.pdb
 D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\demo.genruntimeconfig.cache
+D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\Razor\Views\Product\Detail.cshtml.g.cs
