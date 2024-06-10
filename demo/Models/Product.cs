@@ -19,7 +19,6 @@ namespace demo.Models
         [Range(100, 3000, ErrorMessage = "Product price must be from 100$ to 3000$")]
         public decimal Price { get; set; }
 
-        [Url(ErrorMessage = "Invalid URL")]
         public string Image { get; set; }
     }
 }

@@ -27,7 +27,7 @@ using demo.Models
 #nullable disable
     ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"dcdb95d290a927bcffa49b443100590e9c4dcb9a2d553ef25cc8097966de3a08", @"/Views/Product/Detail.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"a82009245ebb03555f9e45acdfb298a2dcecfacec8e813d5de87754a215eb826", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"4be62084da2e7d55a36b887b1f289a6e27c5879c3bf4b29760457d0f4996cf0e", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Product_Detail : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Product>
     #nullable disable

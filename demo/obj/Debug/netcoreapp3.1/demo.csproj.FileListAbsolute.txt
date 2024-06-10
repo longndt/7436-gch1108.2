@@ -393,3 +393,5 @@ D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\demo.dll
 D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\demo.pdb
 D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\demo.genruntimeconfig.cache
 D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\Razor\Views\Product\Detail.cshtml.g.cs
+D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\Razor\Views\Product\Add.cshtml.g.cs
+D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\Razor\Views\Product\Edit.cshtml.g.cs
