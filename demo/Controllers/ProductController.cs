@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Http;
 using System.IO;
 using System;
 using static System.Net.Mime.MediaTypeNames;
+using Microsoft.AspNetCore.Authorization;
 
 namespace demo.Controllers
 {
@@ -54,6 +55,8 @@ namespace demo.Controllers
         //View product by ID : Product Detail
         //SQL: SELECT * FROM Products WHERE Id = "id"
         //int? id : id is nullable
+
+        [Authorize]
         public IActionResult Detail(int? id)
         {
             //if id is null return error
@@ -84,12 +87,14 @@ namespace demo.Controllers
             return RedirectToAction("Index");
         }
 
+        [Authorize(Roles = "Administrator")]
         [HttpGet]
         public IActionResult Add()
         {
             return View();
         }
 
+        [Authorize(Roles = "Administrator")]
         [HttpPost]
         public IActionResult Add(Product product, IFormFile Image)
         {
@@ -119,6 +124,7 @@ namespace demo.Controllers
             return View(product);
         }
 
+        [Authorize(Roles = "Administrator, User")]
         [HttpGet]
         public IActionResult Edit(int? id)
         {
@@ -126,6 +132,7 @@ namespace demo.Controllers
             return View(product);
         }
 
+        [Authorize(Roles = "Administrator, User")]
         [HttpPost]
         public IActionResult Edit(Product product, IFormFile Image)
         {

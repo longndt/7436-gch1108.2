@@ -12,9 +12,28 @@ namespace AspNetCore
     using global::Microsoft.AspNetCore.Mvc;
     using global::Microsoft.AspNetCore.Mvc.Rendering;
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
-    #line default
-    #line hidden
+#nullable restore
+#line 1 "D:\workspace\FGW-7436\7436-gch1108.2\demo\Areas\Identity\Pages\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity
+
+#nullable disable
+    ;
+#nullable restore
+#line 2 "D:\workspace\FGW-7436\7436-gch1108.2\demo\Areas\Identity\Pages\_ViewImports.cshtml"
+using demo.Areas.Identity
+
+#nullable disable
+    ;
+#nullable restore
+#line 3 "D:\workspace\FGW-7436\7436-gch1108.2\demo\Areas\Identity\Pages\_ViewImports.cshtml"
+using demo.Areas.Identity.Pages
+
+#line default
+#line hidden
+#nullable disable
+    ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"9718926820b4b8dbd9273f37257466ae21311c58e001b42c7c4294d8e43abcb7", @"/Areas/Identity/Pages/_ViewStart.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"e062625956f5017f34ff6e0efee1b0c93b91c6cb7e64176cab367c782ed911c6", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Identity_Pages__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
