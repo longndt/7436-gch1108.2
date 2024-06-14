@@ -178,19 +178,19 @@ namespace demo.Controllers
         [HttpPost]
         public IActionResult Search (string keyword)
         {
-            var products = context.Products.Where(p => p.Name.Contains(keyword)).ToList();
+            var products = context.Products.Include(p => p.Brand).Where(p => p.Name.Contains(keyword)).ToList();
             return View("Index", products);
         }
 
         public IActionResult SortAsc()
         {
-            var products = context.Products.OrderBy(p => p.Name).ToList();
+            var products = context.Products.Include(p => p.Brand).OrderBy(p => p.Name).ToList();
             return View("Index", products);
         }
 
         public IActionResult SortDesc()
         {
-            var products = context.Products.OrderByDescending(p => p.Name).ToList();
+            var products = context.Products.Include(p => p.Brand).OrderByDescending(p => p.Name).ToList();
             return View("Index", products);
         }
     }
