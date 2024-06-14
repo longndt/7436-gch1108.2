@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace demo.Models
 {
@@ -20,5 +21,10 @@ namespace demo.Models
         public decimal Price { get; set; }
 
         public string Image { get; set; }
+
+        //relationship: Many Products - One Brand
+        //foreign key: BrandId
+        public int BrandId { get; set; }
+        public Brand Brand { get; set; }
     }
 }

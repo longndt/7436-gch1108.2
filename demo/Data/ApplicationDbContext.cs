@@ -1,6 +1,7 @@
 ﻿using demo.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -16,11 +17,13 @@ namespace demo.Data
         }
 
         public DbSet<Product> Products { get; set; }
+        public DbSet<Brand> Brands { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
             SeedUserRole(builder);
+            SeedBrand(builder);
             SeedProduct(builder);
         }
 
@@ -88,6 +91,27 @@ namespace demo.Data
              );
         }
 
+        private void SeedBrand(ModelBuilder builder)
+        {
+            builder.Entity<Brand>().HasData(
+                new Brand
+                {
+                    Id = 1,
+                    Name = "Apple"
+                },
+                new Brand
+                {
+                    Id = 2,
+                    Name = "Dell"
+                },
+                new Brand
+                {
+                    Id = 3,
+                    Name = "LG"
+                }
+             );
+        }
+
         private void SeedProduct(ModelBuilder builder)
         {
             builder.Entity<Product>().HasData(
@@ -96,21 +120,24 @@ namespace demo.Data
                     Id = 1,
                     Name = "Macbook Pro M2",
                     Price = 2345,
-                    Image = "/images/macbook.png"
+                    Image = "/images/macbook.png",
+                    BrandId = 1
                 },
                 new Product
                 {
                     Id = 2,
                     Name = "XPS 15",
                     Price = 1999,
-                    Image = "/images/xps.png"
+                    Image = "/images/xps.png",
+                    BrandId = 2
                 },
                 new Product
                 {
                     Id = 3,
                     Name = "Gram 17",
                     Price = 2024,
-                    Image = "/images/gram.jpg"
+                    Image = "/images/gram.jpg",
+                    BrandId = 3
                 }
              );
         }

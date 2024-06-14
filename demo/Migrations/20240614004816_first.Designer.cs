@@ -10,7 +10,7 @@ using demo.Data;
 namespace demo.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240610072725_first")]
+    [Migration("20240614004816_first")]
     partial class first
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -51,14 +51,14 @@ namespace demo.Migrations
                         new
                         {
                             Id = "role1",
-                            ConcurrencyStamp = "7820238a-5dfa-4a01-b6a6-a925bad7bf35",
+                            ConcurrencyStamp = "df235b8a-9902-4123-aa88-144e3a80fca7",
                             Name = "Administrator",
                             NormalizedName = "ADMINISTRATOR"
                         },
                         new
                         {
                             Id = "role2",
-                            ConcurrencyStamp = "3a09dddd-7a49-41b9-9b42-f3236e6dc0dc",
+                            ConcurrencyStamp = "27fe0c11-8fac-4f91-a6a0-e18a81deb413",
                             Name = "User",
                             NormalizedName = "USER"
                         });
@@ -157,15 +157,15 @@ namespace demo.Migrations
                         {
                             Id = "user1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2da3d5d9-4c6b-4f3f-9d74-ca159a785e6e",
+                            ConcurrencyStamp = "c0ae115d-a592-4228-9dc1-56472781429f",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEKHSk5Fd3T3LXMa2BXEEP8JTx3WNJnWbEn1Me+zzLGiD8VQHQbNoMu51MbXsnN5IOg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELTI2AY54bAgjHoknSLpkYd1ZFjbGSqO1vFIg3CQVvbLO/19bRHBU8674OOh4zW4EA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "b72b2580-1035-497d-b37b-a926912fe08f",
+                            SecurityStamp = "f115e855-7f32-478f-b43f-42728fedc522",
                             TwoFactorEnabled = false,
                             UserName = "admin@gmail.com"
                         },
@@ -173,15 +173,15 @@ namespace demo.Migrations
                         {
                             Id = "user2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "3bc5a9ae-31c2-405a-bf36-48162bf487bf",
+                            ConcurrencyStamp = "082e43d0-ef93-4b25-a451-ea17adcd0099",
                             Email = "user@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "USER@GMAIL.COM",
                             NormalizedUserName = "USER@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEKvMen5sC1sWmuHWpua3kwmJZS0IYasrr8TEidnDwn+LDNI1Zg5lEFP3LoI+ogLYWw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEB1ZzQ1j2LJT5D9npDCwGWTY3CJ+wjo7iwNWfJ+T3XMq+wSf8Mtwc3SXxXJDAEg4dQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "3d948afe-4826-468d-82d7-261f1ac15114",
+                            SecurityStamp = "3a1f57d8-5073-459c-93a3-971e81b76a73",
                             TwoFactorEnabled = false,
                             UserName = "user@gmail.com"
                         });
@@ -283,12 +283,47 @@ namespace demo.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
+            modelBuilder.Entity("demo.Models.Brand", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Brands");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Apple"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Dell"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "LG"
+                        });
+                });
+
             modelBuilder.Entity("demo.Models.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("BrandId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
@@ -302,12 +337,15 @@ namespace demo.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("BrandId");
+
                     b.ToTable("Products");
 
                     b.HasData(
                         new
                         {
                             Id = 1,
+                            BrandId = 1,
                             Image = "/images/macbook.png",
                             Name = "Macbook Pro M2",
                             Price = 2345m
@@ -315,6 +353,7 @@ namespace demo.Migrations
                         new
                         {
                             Id = 2,
+                            BrandId = 2,
                             Image = "/images/xps.png",
                             Name = "XPS 15",
                             Price = 1999m
@@ -322,6 +361,7 @@ namespace demo.Migrations
                         new
                         {
                             Id = 3,
+                            BrandId = 3,
                             Image = "/images/gram.jpg",
                             Name = "Gram 17",
                             Price = 2024m
@@ -375,6 +415,15 @@ namespace demo.Migrations
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("demo.Models.Product", b =>
+                {
+                    b.HasOne("demo.Models.Brand", "Brand")
+                        .WithMany("Products")
+                        .HasForeignKey("BrandId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

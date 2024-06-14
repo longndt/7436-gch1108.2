@@ -502,3 +502,6 @@ D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\Razor\Areas\Id
 D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
 D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\Razor\Views\Brand\Add.cshtml.g.cs
+D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\Razor\Views\Brand\Edit.cshtml.g.cs
+D:\workspace\FGW-7436\7436-gch1108.2\demo\obj\Debug\netcoreapp3.1\Razor\Views\Brand\Index.cshtml.g.cs

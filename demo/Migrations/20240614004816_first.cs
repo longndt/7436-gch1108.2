@@ -47,18 +47,16 @@ namespace demo.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Products",
+                name: "Brands",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(maxLength: 30, nullable: true),
-                    Price = table.Column<decimal>(nullable: false),
-                    Image = table.Column<string>(nullable: true)
+                    Name = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Products", x => x.Id);
+                    table.PrimaryKey("PK_Brands", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -167,13 +165,35 @@ namespace demo.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Products",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(maxLength: 30, nullable: true),
+                    Price = table.Column<decimal>(nullable: false),
+                    Image = table.Column<string>(nullable: true),
+                    BrandId = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Products", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Products_Brands_BrandId",
+                        column: x => x.BrandId,
+                        principalTable: "Brands",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "role1", "7820238a-5dfa-4a01-b6a6-a925bad7bf35", "Administrator", "ADMINISTRATOR" },
-                    { "role2", "3a09dddd-7a49-41b9-9b42-f3236e6dc0dc", "User", "USER" }
+                    { "role1", "df235b8a-9902-4123-aa88-144e3a80fca7", "Administrator", "ADMINISTRATOR" },
+                    { "role2", "27fe0c11-8fac-4f91-a6a0-e18a81deb413", "User", "USER" }
                 });
 
             migrationBuilder.InsertData(
@@ -181,29 +201,38 @@ namespace demo.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "user1", 0, "2da3d5d9-4c6b-4f3f-9d74-ca159a785e6e", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN@GMAIL.COM", "AQAAAAEAACcQAAAAEKHSk5Fd3T3LXMa2BXEEP8JTx3WNJnWbEn1Me+zzLGiD8VQHQbNoMu51MbXsnN5IOg==", null, false, "b72b2580-1035-497d-b37b-a926912fe08f", false, "admin@gmail.com" },
-                    { "user2", 0, "3bc5a9ae-31c2-405a-bf36-48162bf487bf", "user@gmail.com", true, false, null, "USER@GMAIL.COM", "USER@GMAIL.COM", "AQAAAAEAACcQAAAAEKvMen5sC1sWmuHWpua3kwmJZS0IYasrr8TEidnDwn+LDNI1Zg5lEFP3LoI+ogLYWw==", null, false, "3d948afe-4826-468d-82d7-261f1ac15114", false, "user@gmail.com" }
+                    { "user1", 0, "c0ae115d-a592-4228-9dc1-56472781429f", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN@GMAIL.COM", "AQAAAAEAACcQAAAAELTI2AY54bAgjHoknSLpkYd1ZFjbGSqO1vFIg3CQVvbLO/19bRHBU8674OOh4zW4EA==", null, false, "f115e855-7f32-478f-b43f-42728fedc522", false, "admin@gmail.com" },
+                    { "user2", 0, "082e43d0-ef93-4b25-a451-ea17adcd0099", "user@gmail.com", true, false, null, "USER@GMAIL.COM", "USER@GMAIL.COM", "AQAAAAEAACcQAAAAEB1ZzQ1j2LJT5D9npDCwGWTY3CJ+wjo7iwNWfJ+T3XMq+wSf8Mtwc3SXxXJDAEg4dQ==", null, false, "3a1f57d8-5073-459c-93a3-971e81b76a73", false, "user@gmail.com" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Brands",
+                columns: new[] { "Id", "Name" },
+                values: new object[,]
+                {
+                    { 1, "Apple" },
+                    { 2, "Dell" },
+                    { 3, "LG" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "AspNetUserRoles",
+                columns: new[] { "UserId", "RoleId" },
+                values: new object[,]
+                {
+                    { "user1", "role1" },
+                    { "user2", "role2" }
                 });
 
             migrationBuilder.InsertData(
                 table: "Products",
-                columns: new[] { "Id", "Image", "Name", "Price" },
+                columns: new[] { "Id", "BrandId", "Image", "Name", "Price" },
                 values: new object[,]
                 {
-                    { 1, "/images/macbook.png", "Macbook Pro M2", 2345m },
-                    { 2, "/images/xps.png", "XPS 15", 1999m },
-                    { 3, "/images/gram.jpg", "Gram 17", 2024m }
+                    { 1, 1, "/images/macbook.png", "Macbook Pro M2", 2345m },
+                    { 2, 2, "/images/xps.png", "XPS 15", 1999m },
+                    { 3, 3, "/images/gram.jpg", "Gram 17", 2024m }
                 });
-
-            migrationBuilder.InsertData(
-                table: "AspNetUserRoles",
-                columns: new[] { "UserId", "RoleId" },
-                values: new object[] { "user1", "role1" });
-
-            migrationBuilder.InsertData(
-                table: "AspNetUserRoles",
-                columns: new[] { "UserId", "RoleId" },
-                values: new object[] { "user2", "role2" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
@@ -243,6 +272,11 @@ namespace demo.Migrations
                 column: "NormalizedUserName",
                 unique: true,
                 filter: "[NormalizedUserName] IS NOT NULL");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Products_BrandId",
+                table: "Products",
+                column: "BrandId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -270,6 +304,9 @@ namespace demo.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
+
+            migrationBuilder.DropTable(
+                name: "Brands");
         }
     }
 }

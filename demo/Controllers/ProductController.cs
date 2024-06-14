@@ -32,7 +32,8 @@ namespace demo.Controllers
         {
             //get product data from "Products" table
             //and save to an array (list)
-            var products = context.Products.ToList();
+            //note: must include Brand column to display Brand information
+            var products = context.Products.Include(p => p.Brand).ToList();
 
             //render view along with data
             return View(products);
@@ -65,7 +66,7 @@ namespace demo.Controllers
                 return NotFound();
             }
             //find product whose id is similar to id in url
-            var product = context.Products.FirstOrDefault(p => p.Id == id);
+            var product = context.Products.Include(p => p.Brand).FirstOrDefault(p => p.Id == id);
             return View(product);
         }
 
@@ -91,6 +92,7 @@ namespace demo.Controllers
         [HttpGet]
         public IActionResult Add()
         {
+            ViewBag.Brands = context.Brands.ToList();
             return View();
         }
 
@@ -129,6 +131,7 @@ namespace demo.Controllers
         public IActionResult Edit(int? id)
         {
             var product = context.Products.FirstOrDefault(p => p.Id == id);
+            ViewBag.Brands = context.Brands.ToList();
             return View(product);
         }
 
