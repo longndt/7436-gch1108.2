@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\demo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C27A7BED-A6C8-4565-BAF4-A5D041075C5E}|demo.csproj|d:\\workspace\\fgw-7436\\7436-gch1108.2\\demo\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C27A7BED-A6C8-4565-BAF4-A5D041075C5E}|demo.csproj|solutionrelative:controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C27A7BED-A6C8-4565-BAF4-A5D041075C5E}|demo.csproj|d:\\workspace\\fgw-7436\\7436-gch1108.2\\demo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C27A7BED-A6C8-4565-BAF4-A5D041075C5E}|demo.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C27A7BED-A6C8-4565-BAF4-A5D041075C5E}|demo.csproj|d:\\workspace\\fgw-7436\\7436-gch1108.2\\demo\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C27A7BED-A6C8-4565-BAF4-A5D041075C5E}|demo.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C27A7BED-A6C8-4565-BAF4-A5D041075C5E}|demo.csproj|d:\\workspace\\fgw-7436\\7436-gch1108.2\\demo\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C27A7BED-A6C8-4565-BAF4-A5D041075C5E}|demo.csproj|solutionrelative:controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C27A7BED-A6C8-4565-BAF4-A5D041075C5E}|demo.csproj|d:\\workspace\\fgw-7436\\7436-gch1108.2\\demo\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -34,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 110,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "BrandController.cs",
               "DocumentMoniker": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\demo\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "Controllers\\BrandController.cs",
               "ToolTip": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\demo\\Controllers\\BrandController.cs",
               "RelativeToolTip": "Controllers\\BrandController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-14T01:50:10.424Z",
               "EditorCaption": ""
@@ -59,12 +59,11 @@
               "RelativeToolTip": "Views\\Product\\Add.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-14T01:48:49.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T01:48:49.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\demo\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
@@ -77,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\workspace\\FGW-7436\\7436-gch1108.2\\demo\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
@@ -85,8 +84,7 @@
               "RelativeToolTip": "Views\\Product\\Index.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAADAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-14T01:46:54.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T01:46:54.826Z"
             },
             {
               "$type": "Document",
@@ -98,8 +96,7 @@
               "RelativeToolTip": "Views\\Brand\\Add.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-14T01:48:48.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T01:48:48.404Z"
             },
             {
               "$type": "Document",
@@ -111,8 +108,7 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T01:43:58.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T01:43:58.946Z"
             }
           ]
         }
